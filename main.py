@@ -13,10 +13,13 @@ from ctypes import *
 from PyQt5.Qt import *
 from PIL import Image, ImageTk
 
-sys.path.append("../MvImport")
+sys.path.append("E:/PycharmProjects/camera-gui/MvImport")
 from MvCameraControl_class import *
 import time
 import os
+import sys
+
+
 
 
 class mywindow(QtWidgets.QMainWindow, Ui_MainWindow):
